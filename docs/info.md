@@ -14,7 +14,8 @@ Display the Automation Laboratory LOGO. <br>
 
 ## How to test
 
-Just connect to a VGA monitor. Then, to repeat the logo, use ui_in[0] for color, use ui_in[1].
+Just connect to a VGA monitor. Then, to repeat the logo, use ui_in[0] for color, use ui_in[1]. 
+Setting ui_in[2] to change the image displayed.
 
 ## External hardware
 
