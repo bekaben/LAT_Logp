@@ -8,12 +8,13 @@ You can also include images in this folder and reference them in the markdown. E
 -->
 
 ## How it works
-
-To repeat the logo, use ui_in[0] for color, use ui_in[1].
+Display the Automation Laboratory LOGO. <br>
 <img src='./LOGO_LAT.png'>
+<br>
+
 ## How to test
 
-Just connect to a VGA monitor. 
+Just connect to a VGA monitor. Then, to repeat the logo, use ui_in[0] for color, use ui_in[1].
 
 ## External hardware
 
