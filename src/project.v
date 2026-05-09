@@ -7,7 +7,7 @@
 
 `default_nettype none
 
-module tt_um_Halcy0nnnn (
+module tt_um_LAT (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
