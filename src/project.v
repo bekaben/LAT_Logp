@@ -63,7 +63,11 @@ module tt_um_LAT (
   wire [9:0] logo_top = 176;   // Center Y: (480 - 128) / 2
 
   wire pixel_value;
-  wire [5:0] color;
+  wire pixel_imga1;
+  wire pixel_imga2;
+  assign pixel_value = ui[2] ?  pixel_imga1 : pixel_imga2;
+  
+    wire [5:0] color;
 
   wire [9:0] x = pix_x - logo_left;
   wire [9:0] y = pix_y - logo_top;
@@ -72,9 +76,16 @@ module tt_um_LAT (
   bitmap_rom rom1 (
       .x(x[6:0]),
       .y(y[6:0]),
-      .pixel(pixel_value)
+      .pixel(pixel_imga1)
   );
 
+  bekamap_rom rom2 (
+      .x(x[6:0]),
+      .y(y[6:0]),
+      .pixel(pixel_imga2)
+  );
+
+    
   palette palette_inst (
       .color_index(cfg_color ? color_index : 3'd7),
       .rrggbb(color)
