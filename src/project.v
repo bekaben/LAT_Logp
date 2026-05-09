@@ -65,7 +65,7 @@ module tt_um_LAT (
   wire pixel_value;
   wire pixel_imga1;
   wire pixel_imga2;
-  assign pixel_value = ui[2] ?  pixel_imga1 : pixel_imga2;
+  assign pixel_value = ui_in[2] ?  pixel_imga1 : pixel_imga2;
   
     wire [5:0] color;
 
