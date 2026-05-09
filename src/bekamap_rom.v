@@ -1,4 +1,4 @@
-module bitmap_rom (
+module bekamap_rom (
     input wire [6:0] x,
     input wire [6:0] y,
     output wire pixel
