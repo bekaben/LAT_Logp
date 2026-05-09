@@ -19,6 +19,7 @@ project:
   source_files:
     - "project.v"
     - "bitmap_rom.v"
+    - "bekamap_rom.v"
     - "vga_sync_generator.v"
     - "palette.v"
 
@@ -28,7 +29,7 @@ pinout:
   # Inputs
   ui[0]: "tile"
   ui[1]: "color"
-  ui[2]: ""
+  ui[2]: "Sel"
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
