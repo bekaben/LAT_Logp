@@ -1,15 +1,15 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
-
+<br><br>
 # Tiny Tapeout VGA Project
 
 - [Read the documentation for project](docs/info.md)
-
+<br><br>
 ## What is it about
 
 This is another Tiny Tapeout as an educational project to introduce the VGA interface. We display our laboratory logo using the push button to change the display:o{) ## Set up your Verilog project
-
+<br>
 Verilog files and images to be displayed are stored in the `src` folder.
-
+<br><br>
 
 ## Resources for TinyTapeOut
 
